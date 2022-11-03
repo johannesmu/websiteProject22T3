@@ -1,9 +1,19 @@
 /* CSS rules! */
+:root {
+  /* CSS HEX */
+  --blue-munsell: #3891a6ff;
+  --deep-space-sparkle: #4c5b5cff;
+  --minion-yellow: #fde74cff;
+  --indian-red: #db5461ff;
+  --fire-opal: #e3655bff;
+}
+
 body {
-  background-color: #688a8d;
+  background-color:var(--blue-munsell);
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
+
 .logo {
   display: block;
   margin-left: auto;
@@ -11,19 +21,23 @@ body {
   width: 80px;
   padding: 12px;
 }
+
 .navigation {
   text-align: center;
-  background-color: #540770;
+  background-color: var( --deep-space-sparkle);
 }
+
 .navigation a {
   color: white;
   text-decoration: none;
   display: inline-block;
   padding: 15px;
 }
+
 .navigation a:hover {
   background-color: #120118;
 }
+
 .home-banner {
   background-image: url("pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg");
   height: 50vh;
@@ -31,6 +45,7 @@ body {
   display: grid;
   place-items: center;
 }
+
 .home-banner h1 {
   font-family: 'Unica One', cursive;
   margin: 0;
@@ -65,9 +80,15 @@ body {
   max-width: 1000px;
   min-height: 300px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
+
 img {
   max-width: 100%;
+}
+
+.main-footer {
+  min-height: 32ch;
+  background-color: var(--indian-red);
 }
