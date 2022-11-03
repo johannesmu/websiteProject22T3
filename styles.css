@@ -1,6 +1,7 @@
 /* CSS rules! */
 body {
   background-color: #688a8d;
+  margin: 0;
 }
 .logo {
   display: block;
@@ -26,12 +27,32 @@ body {
   background-image: url("pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg");
   height: 50vh;
   background-position: center;
-  padding-top: 25vh;
+  display: grid;
+  place-items: center;
 }
 .home-banner h1 {
   margin: 0;
-  text-align: center;
   color: white;
   text-shadow: 1px 1px 1px black;
   font-size: 3em;
+  letter-spacing: 0.4ch;
+  background-color: rgba(0, 0, 0, 0.481);
+  padding: 0.4ch;
+}
+
+.banner-group {
+  display: grid;
+  place-items: center;
+}
+
+.banner-button {
+  color: white;
+  background-color: black;
+  padding: 2ch;
+  display: block;
+  text-decoration: none;
+  max-width: 150px;
+  text-align: center;
+  margin-top: 2ch;
+  border-radius: 1ch;
 }
