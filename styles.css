@@ -2,6 +2,7 @@
 body {
   background-color: #688a8d;
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 .logo {
   display: block;
@@ -31,6 +32,7 @@ body {
   place-items: center;
 }
 .home-banner h1 {
+  font-family: 'Unica One', cursive;
   margin: 0;
   color: white;
   text-shadow: 1px 1px 1px black;
