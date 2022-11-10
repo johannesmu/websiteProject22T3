@@ -20,6 +20,10 @@ body {
   margin-right: auto;
   width: 80px;
   padding: 12px;
+  transition: transform 1s;
+}
+.logo:hover {
+  transform: rotate(45deg);
 }
 
 .navigation {
@@ -36,6 +40,7 @@ body {
 
 .navigation a:hover {
   background-color: #120118;
+  color: var(--minion-yellow);
 }
 
 .home-banner {
@@ -91,4 +96,11 @@ img {
 .main-footer {
   min-height: 32ch;
   background-color: var(--indian-red);
+}
+
+.card:hover {
+  background-color: var(--indian-red);
+}
+.card h3, .card p {
+  padding: 0 1ch;
 }
