@@ -94,8 +94,27 @@ img {
 }
 
 .main-footer {
-  min-height: 32ch;
   background-color: var(--indian-red);
+  padding-top: 2ch;
+  padding-bottom: 2ch;
+}
+
+.social-nav {
+  text-align: center;
+}
+.social-nav a {
+  display: inline-block;
+  font-size: 1.5em;
+  color: var(--minion-yellow);
+  margin: 1ch;
+  padding: 0.5ch;
+}
+.social-nav a:hover {
+  color: var(--deep-space-sparkle);
+}
+
+.copyright {
+  text-align: center;
 }
 
 .card:hover {
@@ -103,4 +122,23 @@ img {
 }
 .card h3, .card p {
   padding: 0 1ch;
+}
+
+.contact-banner {
+  background-image: url("priscilla-du-preez-BjhUu6BpUZA-unsplash.jpg");
+  height: 50vh;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.contact-banner h1 {
+  font-family: 'Unica One', cursive;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 3em;
+  letter-spacing: 0.4ch;
+  background-color: rgba(0, 0, 0, 0.481);
+  padding: 0.4ch;
 }
