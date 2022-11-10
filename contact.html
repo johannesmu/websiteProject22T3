@@ -31,42 +31,18 @@
     </div>
   </div>
   <main class="main-content">
-    <div class="card">
-      <h3>Special Deals!</h3>
-      <img src="https://picsum.photos/id/34/600/300">
-      <p>
-        <!-- start slipsum code -->
-
-        Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how
-        you can tell who the arch-villain's going to be?
-
-        <!-- end slipsum code -->
-      </p>
-    </div>
-    <div class="card">
-      <h3>Card Number Two</h3>
-      <img src="https://picsum.photos/id/40/600/300">
-      <p>
-        <!-- start slipsum code -->
-
-        Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how
-        you can tell who the arch-villain's going to be?
-
-        <!-- end slipsum code -->
-      </p>
-    </div>
-    <div class="card">
-      <h3>Third Card</h3>
-      <img src="https://picsum.photos/id/42/600/300">
-      <p>
-        <!-- start slipsum code -->
-
-        Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how
-        you can tell who the arch-villain's going to be?
-
-        <!-- end slipsum code -->
-      </p>
-    </div>
+    <form id="contact" method="post" action="https://example.com/formhandler">
+      <label class="label" for="user-name">Your name</label>
+      <input class="input" type="text" placeholder="Jane Smith" id="user-name" name="user-name">
+      <label class="label" for="user-email">Your email address</label>
+      <input class="input" type="email" placeholder="you@domain.com" id="user-email" name="user-name">
+      <label class="label" for="message">Your message</label>
+      <textarea class="input" placeholder="Hey how are you?" id="message" name="message" cols="30" rows="5"></textarea>
+      <div class="buttons">
+        <button type="reset" class="button">Clear Form</button>
+        <button type="submit" class="button">Submit</button>
+      </div>
+    </form>
   </main>
   <footer class="main-footer">
     <nav class="social-nav">

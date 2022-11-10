@@ -142,3 +142,30 @@ img {
   background-color: rgba(0, 0, 0, 0.481);
   padding: 0.4ch;
 }
+
+#contact {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.label {
+  display: block;
+}
+.input {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 1ch;
+  margin-bottom: 1.5ch;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.button[type="submit"] {
+  grid-column-start: 3;
+}
+.button {
+  color: white;
+  background-color: var(--indian-red);
+  border: 1px solid var(--indian-red);
+  padding: 1ch;
+}
