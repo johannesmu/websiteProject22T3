@@ -22,4 +22,18 @@
         margin: 0 2em;
         text-align: center;
     }
+    .nav-button {
+        display: block;
+        align-self: center;
+    }
+    .navigation {
+        width: 100%;
+        flex-wrap: wrap;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .navigation a {
+        width: 100%;
+        display: block;
+    }
 }
