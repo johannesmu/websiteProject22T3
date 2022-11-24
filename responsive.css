@@ -36,4 +36,11 @@
         width: 100%;
         display: block;
     }
+    .slide h2 {
+        font-size: 4ch;
+    }
+    .slide {
+        min-height: auto;
+        aspect-ratio: 1/1;
+    }
 }
