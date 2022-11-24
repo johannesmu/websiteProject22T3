@@ -13,8 +13,10 @@
   <!-- loading font awesome css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- loading CSS rules -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="responsive.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
@@ -29,10 +31,28 @@
       <a href="about.html">About</a>
     </nav>
   </header>
-  <div class="home-banner">
+  <!-- Being replaced with a slideshow / carousel -->
+  <!-- <div class="home-banner">
     <div class="banner-group">
       <h1>Place yourself in the picture!</h1>
       <a href="contact.html" class="banner-button">Get in touch</a>
+    </div>
+  </div> -->
+  <div class="home-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "draggable" : true, "wrapAround" : true }'>
+    <div class="slide one">
+      <h2>Slide One</h2>
+    </div>
+    <div class="slide two">
+      <h2>Slide Two</h2>
+    </div>
+    <div class="slide three">
+      <h2>Slide Three</h2>
+    </div>
+    <div class="slide four">
+      <h2>Slide Four</h2>
+    </div>
+    <div class="slide five">
+      <h2>Slide Five</h2>
     </div>
   </div>
   <main class="main-content">

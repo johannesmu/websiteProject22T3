@@ -191,3 +191,31 @@ img {
   padding: 1ch;
 }
 
+/* carousel */
+.home-carousel {
+  margin-bottom: 3em;
+}
+.slide {
+  min-height: 50vh;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+.one {
+  background-color: var(--minion-yellow);
+  background-image: url("/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg");
+}
+.two {
+  background-color: var(--deep-space-sparkle);
+}
+.three {
+  background-color: var(--fire-opal);
+}
+.four {
+  background-color: var(--indian-red);
+}
+.five {
+  background-color: rgb(138, 245, 138);
+}
