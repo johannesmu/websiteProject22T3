@@ -18,8 +18,8 @@ body {
   display: block;
   /* margin-left: auto;
   margin-right: auto; */
-  width: 80px;
-  padding: 12px;
+  width: 50px;
+  padding: 0.5em;
   transition: transform 1s;
 }
 .logo:hover {
@@ -42,6 +42,10 @@ body {
 
 .navigation a:hover {
   background-color: #120118;
+  color: var(--minion-yellow);
+}
+
+.navigation .active {
   color: var(--minion-yellow);
 }
 
@@ -202,10 +206,11 @@ img {
   width: 100vw;
   background-size: cover;
   background-position: center;
+  aspect-ratio: 21/9;
 }
 .one {
   background-color: var(--minion-yellow);
-  background-image: url("/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg");
+  background-image: url("/Slide1.jpg");
 }
 .two {
   background-color: var(--deep-space-sparkle);
@@ -218,4 +223,12 @@ img {
 }
 .five {
   background-color: rgb(138, 245, 138);
+}
+
+.slide h2 {
+  background-color: hsla(345, 99%, 100%, 0.62);
+  font-size: 10ch;
+  padding: 0.3ch 1ch;
+  margin: 0;
+  border-radius: 1ch 0 1ch 0;
 }
