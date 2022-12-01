@@ -31,6 +31,10 @@
         flex-wrap: wrap;
         max-height: 0;
         overflow: hidden;
+        transition: max-height 1s linear;
+    }
+    .navigation.open {
+        max-height: 50vh;
     }
     .navigation a {
         width: 100%;
